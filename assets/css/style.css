@@ -1,4 +1,19 @@
+/*affichage sur pc(grand écran)*/
 img{
-  max-width: 100%;
-  height: auto
+  width: 50%;
+}
+/*affichage tablette(moyen écran)*/
+@media screen AND (max-width: 992px){
+  img{
+    width: 75%;
+  }
+  body{
+    background-color: blue;
+  }
+}
+/*affichage mobile(petit écran)*/
+@media screen AND (max-width: 992px){
+  img{
+    width: 100%;
+  }
 }
